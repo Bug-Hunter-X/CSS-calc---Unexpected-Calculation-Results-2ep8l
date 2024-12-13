@@ -1,0 +1,11 @@
+The issue is resolved by ensuring there are spaces around the operators within the `calc()` function.  The correct syntax is:
+
+```css
+width: calc(100% - 10px);
+```
+
+Incorrect syntax (may not work in all browsers):
+
+```css
+width: calc(100%-10px);
+```
